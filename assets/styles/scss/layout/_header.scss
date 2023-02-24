@@ -1,0 +1,27 @@
+//header styles
+.header {
+  background-color: $light-gray;
+  margin-bottom: $global-spacing;
+
+  a {
+    color: $dark-gray;
+    display: inline-block;
+
+    &:hover {
+      background: linear-gradient(to top, black 4px, transparent 0);
+    }
+
+    &:active {
+      background: linear-gradient(to top, black 4px, transparent 0);
+    }
+  }
+}
+
+.header-page {
+  color: white;
+  background-color: $primary-color;
+  margin-bottom: $global-spacing;
+  nav a {
+    color: red;
+  }
+}

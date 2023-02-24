@@ -1,0 +1,80 @@
+
+
+ul.checklist {
+  list-style: none;
+  margin-left: 0.2rem;
+}
+ul.checklist li:before {
+  content: '';
+  display: inline-block;
+  height: 0.95rem;
+  width: 0.95rem;
+  background-image: url('../../../images/util/tick.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 1.2em;
+  position: relative;
+  top: 2px;
+}
+
+
+
+.color-white,
+.color-white a,
+.color-white a:hover,
+.color-white a:active {
+  color: white;
+}
+
+.color-primary,
+.color-primary a,
+.color-primary a:hover,
+.color-primary a:active {
+  color: get-color(primary);
+}
+
+.color-secondary,
+.color-secondary a,
+.color-secondary a:hover,
+.color-secondary a:active {
+  color: get-color(secondary);
+}
+
+.color-warning,
+.color-warning a,
+.color-warning a:hover,
+.color-warning a:active {
+  color: get-color(warning);
+}
+
+.color-success,
+.color-success a,
+.color-success a:hover,
+.color-success a:active {
+  color: get-color(success);
+}
+
+.color-alert,
+.color-alert a,
+.color-alert a:hover,
+.color-alert a:active {
+  color: get-color(alert);
+}
+
+.color-light-grey,
+.color-light-grey a,
+.color-light-grey a:hover,
+.color-light-grey a:active {
+  color: get-color(light-gray);
+}
+
+.color-medium-grey,
+.color-medium-grey a,
+.color-medium-grey a:hover,
+.color-medium-grey a:active {
+  color: get-color(medium-gray);
+}
+
+
+
+
