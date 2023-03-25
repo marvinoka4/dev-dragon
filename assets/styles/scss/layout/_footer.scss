@@ -1,7 +1,10 @@
-//footer styles
+/*********************
+FOOTER STYLES
+*********************/
 .footer {
-  clear: both;
-  margin-top: 2em;
-  background: $light-gray;
-  padding: 5rem 0rem 4rem;
+	clear: both;
+	margin-top: 2em;
+	background: get-color(light-grey);
+	padding: 5rem 0rem 4rem;
 }
+ 

@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="grid-container fluid padding-vertical-1">
+<div class="grid-container bg-light-grey fluid padding-vertical-1">
 		<div class="grid-x align-middle">
 			<div class="large-4 medium-6 small-6 cell">
 				<a href="<?php echo home_url(); ?>" >
@@ -17,7 +17,7 @@
 						<?php docks_top_nav(); ?>
 					</ul>
 					<div class="hide-for-large">
-						<button class="hamburger hamburger--elastic" type="button" data-toggle="off-canvas">
+						<button class="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="navigation" data-toggle="off-canvas">
   						<span class="hamburger-box">
     					<span class="hamburger-inner"></span>
   						</span>

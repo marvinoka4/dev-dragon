@@ -64,7 +64,7 @@ function browser_server(reloaded) {
         open:'external',
         // host: 'localhost',
         // port: 3000,
-        proxy: "http://dragon-skies.test/"
+        proxy: "http://portfolio30.test//"
     });
     reloaded();
 }
