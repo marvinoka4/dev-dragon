@@ -9,7 +9,6 @@ jQuery(document).ready(function() {
     //setup Cookiebar
     // jQuery.cookieBar();
 
-
     // Remove empty P tags created by WP inside of Accordion and Orbit
     jQuery('.accordion p:empty, .orbit p:empty').remove();
 
@@ -22,15 +21,19 @@ jQuery(document).ready(function() {
         }
     });
 
-
-
-
     //Hamburger classes
     jQuery(document).on( "opened.zf.offCanvas", function() {
         jQuery(".hamburger").addClass("is-active");
     })
     jQuery(document).on( "closed.zf.offCanvas", function() {
         jQuery(".hamburger").removeClass("is-active");
+    })
+
+    // make active page obvious from navigation
+    document.querySelectorAll('.nav-link').forEach(link => {
+        if(link.href === window.location.href){
+            link.setAttribute('aria-current', 'page')
+        }
     })
 
 });
