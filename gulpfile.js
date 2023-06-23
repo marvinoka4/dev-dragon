@@ -16,7 +16,6 @@ const sass_paths = [
 ];
 
 const js_paths = [
-    'assets/scripts/js/vendor/jquery.js',
     'assets/scripts/js/vendor/wp-foundation.js',
     'assets/scripts/js/vendor/what-input.js',
     'assets/scripts/js/vendor/foundation.js',
