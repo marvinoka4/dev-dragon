@@ -20,7 +20,9 @@ const js_paths = [
     'assets/scripts/js/vendor/wp-foundation.js',
     'assets/scripts/js/vendor/what-input.js',
     'assets/scripts/js/vendor/foundation.js',
-    'assets/scripts/js/app.js'
+    'assets/scripts/js/app.js',
+    'assets/scripts/js/vendor/plugins.js',
+    'assets/scripts/js/vendor/theme.js',
 ];
 
 //compile scss into css

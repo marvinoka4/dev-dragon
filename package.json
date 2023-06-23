@@ -13,6 +13,7 @@
     "browser-sync": "^2.27.11",
     "cssnano": "^5.1.14",
     "foundation-sites": "^6.7.5",
+    "gsap": "^3.12.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^2.0.8",
