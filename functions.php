@@ -38,3 +38,6 @@ require_once(get_template_directory().'/functions/acf.php');
 
 // Gutenburg
 require_once(get_template_directory().'/functions/gutenburg-core.php');
+
+// Blocks
+require_once(get_template_directory().'/functions/blocks.php');
